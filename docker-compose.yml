@@ -2,7 +2,7 @@ version: '3'
 
 services:
     mirotalksfu:
-        image: mirotalk/sfu:latest
+        image: mirotalk:latest
         build:
             context: .
             dockerfile: Dockerfile
